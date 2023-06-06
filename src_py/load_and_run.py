@@ -2,7 +2,7 @@ from tensorflow import keras
 import time
 import pandas as pd
 
-c = keras.models.load_model('../src_c/model')
+new_model = keras.models.load_model('../src_c/model')
 
 new_row = ({'bedrooms':[3],'bathrooms':[1.5],'sqft_living':[10000],'floors':[2],'waterfront':[0],'view':[0],'condition':[1],'sqft_lot':[20000],'yr_built':[1979],'yr_renovated':[1999]})
 
