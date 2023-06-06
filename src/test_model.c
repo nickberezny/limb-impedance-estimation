@@ -17,7 +17,7 @@ int main()
     TF_SessionOptions* SessionOpts = TF_NewSessionOptions();
     TF_Buffer* RunOpts = NULL;
 
-    const char* saved_model_dir = "/content/test_model";
+    const char* saved_model_dir = "/model";
     const char* tags = "serve"; // default model serving tag; can change in future
     int ntags = 1;
 
